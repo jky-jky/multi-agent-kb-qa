@@ -1,0 +1,31 @@
+# ========== 核心 Agent 编排 ==========
+langgraph>=0.2.15
+langchain>=0.3.10
+langchain-community>=0.3.10
+langchain-openai>=0.2.10
+langchain-huggingface>=0.1.0
+
+# ========== 知识库与向量检索 ==========
+chromadb>=0.5.15
+sentence-transformers>=2.7.0
+pypdf>=4.0.0
+python-docx>=1.1.2
+
+# ========== 稀疏检索（bge-m3 稀疏向量）及依赖 ==========
+FlagEmbedding>=1.4.0
+datasets>=2.19.0
+peft>=0.21.0
+accelerate>=0.21.0
+ir-datasets>=0.6.0
+sentencepiece>=0.2.0
+
+# ========== 语音模块 ==========
+openai-whisper>=20231117
+edge-tts>=7.3.0
+
+# ========== 前端与工具 ==========
+gradio>=4.44.0
+python-dotenv>=1.0.1
+networkx>=3.3
+numpy>=1.26.0
+typing-extensions>=4.10.0

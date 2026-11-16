@@ -1,0 +1,713 @@
+{
+  "total": 50,
+  "recall@k": 1.0,
+  "intent_accuracy": 0.92,
+  "entity_hit_rate": 0.74,
+  "answer_accuracy": 0.82,
+  "per_case": [
+    {
+      "id": "T01",
+      "query": "作业的提交邮箱是什么",
+      "category": "评分标准",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "作业",
+        "提交邮箱"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T02",
+      "query": "Day1作业占总评的多少分",
+      "category": "评分标准",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "Day1作业",
+        "总评"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T03",
+      "query": "作业雷同会怎么处理",
+      "category": "评分标准",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "作业雷同"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T04",
+      "query": "迟交作业如何扣分",
+      "category": "评分标准",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "迟交作业",
+        "扣分"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T05",
+      "query": "总结一下这份作业的评分标准",
+      "category": "评分标准",
+      "recall": 1.0,
+      "intent": "summarize",
+      "intent_correct": true,
+      "entities": [
+        "作业",
+        "评分标准"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T06",
+      "query": "什么是故意杀人罪",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "故意杀人罪"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T07",
+      "query": "什么情况会判处死刑",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "死刑"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T08",
+      "query": "贪污罪的量刑标准是什么",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "贪污罪",
+        "量刑标准"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T09",
+      "query": "故意杀人和过失致人死亡有什么区别",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "compare",
+      "intent_correct": true,
+      "entities": [
+        "故意杀人",
+        "过失致人死亡"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T10",
+      "query": "缓刑的适用条件是什么",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "缓刑",
+        "适用条件"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T11",
+      "query": "什么是自首",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "自首"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T12",
+      "query": "累犯有什么法律后果",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "累犯",
+        "法律后果"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T13",
+      "query": "犯罪未遂和犯罪中止有什么区别",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "compare",
+      "intent_correct": true,
+      "entities": [
+        "犯罪未遂",
+        "犯罪中止"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T14",
+      "query": "死刑缓期执行是什么",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "死刑缓期执行"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T15",
+      "query": "刑法的基本原则有哪些",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "刑法",
+        "基本原则"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T16",
+      "query": "列举刑法总则规定的犯罪形态",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "extract",
+      "intent_correct": true,
+      "entities": [
+        "刑法总则",
+        "犯罪形态"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T17",
+      "query": "杀人如何判罪",
+      "category": "刑法",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "杀人",
+        "判罪"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T18",
+      "query": "河南工业大学有几个本科专业",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "本科专业"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T19",
+      "query": "河南工业大学的学费标准是多少",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "学费标准"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T20",
+      "query": "报考河南工业大学英语专业有什么要求",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "英语专业"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T21",
+      "query": "河南工业大学的调档比例是怎么规定的",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "调档比例"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T22",
+      "query": "河南工业大学有哪些资助政策",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": false,
+      "entities": [
+        "河南工业大学",
+        "资助政策"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T23",
+      "query": "色盲色弱考生不能报考河南工业大学的哪些专业",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "色盲色弱",
+        "专业"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T24",
+      "query": "河南工业大学的国家助学金标准是多少",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "国家助学金标准"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T25",
+      "query": "河南工业大学的录取原则是什么",
+      "category": "招生章程",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "河南工业大学",
+        "录取原则"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T26",
+      "query": "这份就业意见的总体要求是什么",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "就业意见"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T27",
+      "query": "意见中提到了哪些减缓人工智能就业替代影响的措施",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "extract",
+      "intent_correct": false,
+      "entities": [
+        "意见",
+        "人工智能",
+        "就业替代",
+        "措施"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T28",
+      "query": "这份意见包含几个部分",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": false,
+      "entities": [
+        "意见"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T29",
+      "query": "意见中关于人工智能新职业提到了哪些",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "extract",
+      "intent_correct": false,
+      "entities": [
+        "意见",
+        "人工智能",
+        "新职业"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T30",
+      "query": "意见提出如何提升劳动者数字素养",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "劳动者",
+        "数字素养"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T31",
+      "query": "意见中关于灵活就业人员社会保障有什么规定",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "灵活就业人员",
+        "社会保障"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T32",
+      "query": "意见发布的时间和文号是什么",
+      "category": "就业意见",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "意见"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T33",
+      "query": "智能体商业的自动化曲线分为几个层级",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "智能体商业",
+        "自动化曲线"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T34",
+      "query": "1级辅助决策和2级自动加购有什么区别",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "compare",
+      "intent_correct": true,
+      "entities": [
+        "1级辅助决策",
+        "2级自动加购"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T35",
+      "query": "什么是智能体商业的0级程序化便利",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "智能体商业",
+        "0级程序化便利"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T36",
+      "query": "到2030年智能体经手的全球消费额可能达到多少",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "2030年",
+        "智能体",
+        "全球消费额"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T37",
+      "query": "哪些购物类型委托比例会加速增加",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "购物类型",
+        "委托比例"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T38",
+      "query": "哪些购物类型委托比例会进入平台期",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "购物类型",
+        "委托比例",
+        "平台期"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T39",
+      "query": "为什么说智能体商业更像一条曲线而不是阶梯",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "智能体商业",
+        "曲线",
+        "阶梯"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T40",
+      "query": "价值池在智能体商业中如何变迁",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "价值池",
+        "智能体商业"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T41",
+      "query": "什么是元数据在智能体商业中的作用",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "元数据",
+        "智能体商业"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T42",
+      "query": "总结智能体商业六级自动化的整体脉络",
+      "category": "智能体商业",
+      "recall": 1.0,
+      "intent": "summarize",
+      "intent_correct": true,
+      "entities": [
+        "智能体商业六级自动化"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T43",
+      "query": "OWL是什么项目",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "OWL"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T44",
+      "query": "MCP在开源AI项目中的作用是什么",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "MCP",
+        "开源AI项目"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T45",
+      "query": "Unbody是什么项目",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "Unbody"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T46",
+      "query": "Letta解决了什么问题",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "Letta"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T47",
+      "query": "列举GitHub十大开源AI项目中的语音相关项目",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "extract",
+      "intent_correct": true,
+      "entities": [
+        "GitHub",
+        "开源AI项目",
+        "语音相关项目"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 0
+    },
+    {
+      "id": "T48",
+      "query": "VoiceStar和csm在语音合成上有什么不同",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "compare",
+      "intent_correct": true,
+      "entities": [
+        "VoiceStar",
+        "csm",
+        "语音合成"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T49",
+      "query": "为什么OSI批准的许可证很重要",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "answer",
+      "intent_correct": true,
+      "entities": [
+        "OSI",
+        "许可证"
+      ],
+      "entity_hit_rate": 0.0,
+      "answer_acc": 1
+    },
+    {
+      "id": "T50",
+      "query": "这些开源AI项目反映了哪些趋势",
+      "category": "GitHub项目",
+      "recall": 1.0,
+      "intent": "summarize",
+      "intent_correct": true,
+      "entities": [
+        "开源AI项目",
+        "趋势"
+      ],
+      "entity_hit_rate": 1.0,
+      "answer_acc": 1
+    }
+  ],
+  "ablation": {
+    "dense_only": 0.8,
+    "sparse_only": 1.0,
+    "kg_only": 0.56,
+    "dense_sparse": 1.0,
+    "full": 1.0
+  }
+}
